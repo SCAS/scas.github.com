@@ -1,0 +1,61 @@
+---
+layout: marquee
+title: The Social OPAC
+tagline: Welcome to the official homepage of the Social Catalog Application Suite, also known as "SOPAC2"
+image: sopac_icon.png
+theme:
+  name: scas
+---
+{% include JB/setup %}
+
+
+<div class="span12">
+  <h1 class="marquee" style="margin-bottom:5px;">What is SOPAC?</h1>
+  <img class="navimg-right" src="{{ ASSET_PATH }}/img/sopac_composite.png" width="150" style="margin-left:20px;">
+  <p>Thesocialopac.net is the official website of the Social OPAC application suite--an <a href="http://www.ala.org/ala/newspresscenter/news/pressreleases2009/march2009/litabutler.cfm">award-winning</a>, open source social discovery platform for library bibliographic data. The purpose of this site is to build a cohesive community of users and developers around the SOPAC project suite.</p>
+
+  <p>If you are looking to get started using SOPAC, the Getting Started guide and documentation page is the right place to start.</p>
+
+  <p>If you have questions about SOPAC, you may want to browse and participate in the forums.</p>
+
+  <p>SOPAC, Locum, and Insurge are written and maintained by <a href="http://www.blyberg.net/">John Blyberg</a> and supported by the <a href="http://darienlibrary.org/">Darien Library</a> in Darien, Connecticut. Additional support comes from SOPAC's core development group.</p>
+  <hr>
+</div>
+
+<div class="span8">
+  <h2 class="marquee news">What's New?</h2>
+  {% assign first_post = site.posts.first %}
+  <div class="marquee-news">
+    <h2><a href="{{ first_post.url }}">{{ first_post.title }}</a></h3>
+     <div>&raquo; {{ first_post.date | date: "%B %e, %Y"}}</div>
+     <hr style="width:50%;" />
+  </div>
+  <div>
+    {{ first_post.content}}
+  </div>
+</div>
+
+<div class="span4">
+  <h2 class="marquee">Recent News</h2>
+    <ul class="recent">
+    {% for post in site.posts limit: 7 %}
+      <li>{{ post.date | date: "%b %e, %Y"}} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+    <span>(<a href="/archive.html">More</a>)</span>
+    <h2 class="marquee" style="margin-top:30px;">Site Pages</h2>
+    <ul>
+      <li><a href="/archive.html">Archive</a></li>
+      <li><a href="/categories.html">Categories</a></li>
+      <li><a href="/tags.html">Tags</a></li>
+      <li><a href="/sitemap.txt">Sitemap</a></li>
+    </ul>
+    <h2 class="marquee" style="margin-top:15px;">Subscribe</h2>
+    <span style="margin-left:10px;"><img src="{{ ASSET_PATH }}/img/feed-icon-14x14.png"> <a href="/atom.xml">Atom Feed</a></span>
+</div>
+
+
+
+
+
+
