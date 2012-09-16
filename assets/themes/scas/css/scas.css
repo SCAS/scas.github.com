@@ -1,0 +1,181 @@
+/*
+  Special styles for SOPAC's site
+*/
+
+@font-face {
+  font-family: "28 Days Later";
+    src: url(../fonts/28DaysLater.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Interstate-Regular";
+  src: url(../fonts/Interstate-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Consolas";
+  src: url(../fonts/consola.ttf) format('truetype');
+}
+
+body {
+  position: relative;
+  padding-top: 90px;
+  background-image: url(../img/grid-18px-masked.png);
+  background-repeat: repeat-x;
+  background-position: 0 29px;
+  font-family: "Interstate-Regular";
+}
+
+.navbar .nav li a {
+  color: #FFCF75;
+  font-size: 11pt;
+}
+
+/* Jumbotrons */
+.subhead h1 {
+  font-size: 64px;
+  color: #CF5300;
+}
+
+.jumbotron {
+  position: relative;
+}
+
+
+.jumbotron h1 {
+  margin-bottom: 9px;
+  letter-spacing: -1px;
+  line-height: 1;
+  font-family: "28 Days Later";
+  font-weight: normal;
+}
+
+.jumbotron p {
+  margin-bottom: 18px;
+  font-weight: 300;
+}
+
+.jumbotron .btn-large {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 24px;
+  margin-right: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.lead {
+  font-family: "Consolas";
+}
+
+.brand {
+  font-family: "Interstate-Regular";
+}
+
+.footer p {
+  font-family: "Interstate-Regular";
+}
+
+hr.soften {
+  height: 1px;
+  margin-top: 54px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.label {
+  font-weight: normal;
+}
+
+h1.marquee, h2.marquee, h3.marquee {
+  color: #CF5300;
+  font-weight: normal;
+}
+
+h1.news, h2.news, h3.news {
+  margin-bottom: 20px;
+}
+
+.marquee-news {
+  margin-bottom: 20px;
+}
+
+.repo span.name {
+  padding: 0 6px 0 0;
+  font-size: 13px;
+  color: #CF5300;
+}
+.repo span.bullet, .repo span.repo-updated {
+  padding: 0 1px;
+  font-size: 11px;
+}
+
+.repo span.time a, .repo span.watchers a, .repo span.forks a {
+  padding: 0 1px;
+  font-size: 11px;
+  color: #336699;
+}
+
+/* tag_box ======================================================== */
+
+.tag_box {
+  list-style:none;
+  margin:0;
+  padding:5px 0 ;
+  overflow:hidden;
+}
+.tag_box li {
+  line-height:28px;
+}
+.tag_box.inline li {
+  float:left;
+}
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color:#005F6B;
+  border-radius: 3px;
+  text-decoration:none;
+}
+.tag_box a span{
+  vertical-align:super;
+  font-size:0.8em;
+}
+.tag_box a.active {
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
+}
+
+/* Navbar
+-------------------------------------------------- */
+.navimg-left {
+  margin: 0 0 0 0;
+  padding: 0px 0px 0px 0px;
+  float: left;
+}
+
+.navimg-right {
+  margin: 0 0 0 0;
+  padding: 0px 0px 0px 0px;
+  float: right;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  margin-top: 35px;
+  padding: 15px 0 36px;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #555;
+}

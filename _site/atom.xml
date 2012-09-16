@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.com/atom.xml" rel="self"/>
- <link href="http://username.github.com"/>
- <updated>2012-02-21T22:27:49-05:00</updated>
- <id>http://username.github.com</id>
+ <title>The Social OPAC</title>
+ <link href="http://scas.github.com/atom.xml" rel="self"/>
+ <link href="http://scas.github.com"/>
+<<<<<<< HEAD
+ <updated>2012-08-25T17:17:35-04:00</updated>
+=======
+ <updated>2012-02-28T15:54:31-05:00</updated>
+>>>>>>> 1e57a0e34117c11e18ac79e22173a342fabb0cd0
+ <id>http://scas.github.com</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>John Blyberg</name>
+   <email>john@blyberg.net</email>
  </author>
 
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.com/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://scas.github.com/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00-05:00</updated>
-   <id>hhttp://username.github.com/lessons/2011/12/29/jekyll-introduction</id>
+   <id>hhttp://scas.github.com/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">&lt;p&gt;This Jekyll introduction will outline specifically what Jekyll is and why you would want to use it. Directly following the intro we&amp;#8217;ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
 
 &lt;h2 id='overview'&gt;Overview&lt;/h2&gt;

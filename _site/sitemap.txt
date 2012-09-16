@@ -1,11 +1,14 @@
 
-http://username.github.com/archive.html
-http://username.github.com/atom.xml
-http://username.github.com/categories.html
-http://username.github.com/index.html
-http://username.github.com/pages.html
-http://username.github.com/sitemap.txt
-http://username.github.com/tags.html
-http://username.github.com/testing.html
+http://scas.github.com/about.html
+http://scas.github.com/archive.html
+http://scas.github.com/atom.xml
+http://scas.github.com/categories.html
+http://scas.github.com/community.html
+http://scas.github.com/documentation.html
+http://scas.github.com/download.html
+http://scas.github.com/index.html
+http://scas.github.com/pages.html
+http://scas.github.com/sitemap.txt
+http://scas.github.com/tags.html
 
-http://username.github.com/lessons/2011/12/29/jekyll-introduction
+http://scas.github.com/lessons/2011/12/29/jekyll-introduction
