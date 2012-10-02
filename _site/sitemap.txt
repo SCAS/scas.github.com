@@ -7,7 +7,6 @@ http://scas.github.com/community.html
 http://scas.github.com/documentation.html
 http://scas.github.com/download.html
 http://scas.github.com/index.html
-http://scas.github.com/index.html
 http://scas.github.com/pages.html
 http://scas.github.com/sitemap.txt
 http://scas.github.com/tags.html

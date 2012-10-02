@@ -20,6 +20,16 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
 
+{% highlight ruby %}
+class Fixnum
+  def prime?
+    ('1' * self) !~ /^1?$|^(11+?)\1+$/
+  end
+end
+{% endhighlight %}
+
+
+{% render_gist https://raw.github.com/gist/1027674/dfed49fce0a44b98953f2e68c372f79228de4e2c/gist_tag.rb %}
 
 ### What does Jekyll Do?
 

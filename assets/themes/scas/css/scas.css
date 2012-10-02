@@ -122,6 +122,14 @@ h1.news, h2.news, h3.news {
   color: #336699;
 }
 
+.highlight pre {
+  background-color: black;
+}
+
+.gist, .code {
+  background-color: black;
+}
+
 /* tag_box ======================================================== */
 
 .tag_box {
